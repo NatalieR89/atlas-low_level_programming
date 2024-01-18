@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-/*prints a line*/
+/**
+* main - prints a line
+*
+* Return: Always 0
+*/
 int main(void)
-/*prints a line*/
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
 
