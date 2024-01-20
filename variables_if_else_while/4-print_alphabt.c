@@ -4,7 +4,7 @@
  *
  * main - Print all alphabet -e & q
  *
- * Return: Always
+ * Return: Always (Success)
 */
 
 int main(void)
