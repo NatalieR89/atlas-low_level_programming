@@ -2,7 +2,7 @@
 
 /**
  *
- * main - Print all alphabet -e & q
+ * main - Print all alphabet excluding e & q
  *
  * Return: Always (Success)
 */
