@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Print all alphabet excluding e & q
  *
  * Return: Always (Success)
