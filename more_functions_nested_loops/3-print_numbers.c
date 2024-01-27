@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void p_n(void) - print num 0-9
+ * print_numbers - print numbers upto 9
  *
  * Return: num 0-9
  */
