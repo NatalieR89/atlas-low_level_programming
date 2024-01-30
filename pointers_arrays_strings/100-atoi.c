@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
+ * _atoi - change str to int
+ * @s: input
  *
- *
- *
- *
+ * Return: int
  */
 int _atoi(char *s)
 {
@@ -19,15 +19,17 @@ int _atoi(char *s)
 	{
 		if (sz > 0 && (*(s + cnt) < '0' || *(s + cnt) > '9'))
 			break;
+
 		if (*(s + cnt) == '-')
 			b *= -1;
+
 		if ((*(s + cnt) >= '0') && (*(s + cnt) <= '9'))
-			{
-				if (sz > 0)
+		{
+			if (sz > 0)
 				c *= 10;
-				sz++;
-			}
-			cnt++;
+			sz++;
+		}
+		cnt++;
 	}
 	for (d = cnt - sz; d < cnt; d++)
 	{
