@@ -18,7 +18,7 @@ void rev_string(char *s)
 		b++;
 	}
 
-	for (c = 1; c <= b; c++)
+	for (c = 1; c < b; c++)
 	{
 		d++;
 	}
