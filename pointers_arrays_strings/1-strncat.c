@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - concatenats a null-padded char seq into a str
- * @dest: destination val
- * @src: source val
+ * _strncat - concatenats a null-padded character sequence into a string
+ * @dest: destination value
+ * @src: source value
  * @n: concatenation limit
  *
  * Return: dest
