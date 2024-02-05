@@ -10,31 +10,20 @@
 char *leet(char *str)
 {
 	char *p = str;
+	char r[] = {'a', 'e', 'o', 't', 'l', 'A', 'E', 'O', 'T', 'L'};
+	char l[] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
 
-	while (*p != '\0')
-		if ((*p == 'a') || (*p == 'A'))
+		while (*p != '\0')
 		{
-			*p = '4';
-		}
-
-		else if ((*p == 'e') || (*p == 'E'))
-		{
-			*p = '3';
-		}
-
-		else if ((*p == 'o') || (*p == 'O'))
-		{
-			*p = '0';
-		}
-
-		else if ((*p == 't') || (*p == 'T'))
-		{
-			*p = '7';
-		}
-
-		else if ((*p == 'l') || (*p == 'L'))
-		{
-			*p = '1';
+			for (int n = 0; n < sizeof(r) / sizeof(r[0]); n++)
+			{
+				if (*p == r[n])
+				{
+					*p = l[n];
+					break;
+				}
+			}
+			*p++;
 		}
 	return (str);
 }
