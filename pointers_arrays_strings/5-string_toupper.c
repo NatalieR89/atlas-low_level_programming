@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - changes all lowercase to uppercase
- * @*: string to be modified
+ * @str: string to be modified
  *
  * Return: chacter value
  */
