@@ -9,21 +9,24 @@
  */
 char *leet(char *str)
 {
+	size_t a = 0, n = 0, l =5;
+	char r[5] = {'A', 'E', 'O', 'T', 'L'};
+	char l[5] = {'4', '3', '0', '7', '1'};
 	char *p = str;
-	char r[] = {'a', 'e', 'o', 't', 'l', 'A', 'E', 'O', 'T', 'L'};
-	char l[] = {'4', '3', '0', '7', '1', '4', '3', '0', '7', '1'};
 
-		while (*p != '\0')
+	while (p[a])
+	{
+		n = 0;
+		while (n < 1)
 		{
-			for (int n = 0; n < sizeof(r) / sizeof(r[0]); n++)
+			if (p[a] == r[n] || p[a] - ' ' ==r[n])
 			{
-				if (*p == r[n])
-				{
-					*p = l[n];
-					break;
-				}
+				p[a] = l[n];
 			}
-			*p++;
+			n++;
 		}
+		a++;
+	}
 	return (str);
 }
+
