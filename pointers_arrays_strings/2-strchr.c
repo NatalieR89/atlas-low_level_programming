@@ -2,10 +2,11 @@
 #include <stddef.h>
 
 /**
+ * _strchr - locates char in a string
+ * @s: source string
+ * @c: character to find
  *
- *
- *
- *
+ * Return: string from found characters
  */
 char *_strchr(char *s, char c)
 {
