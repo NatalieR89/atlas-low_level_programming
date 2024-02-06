@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
+ * print_diagsums - print diagonals of square matrix
+ * @a: The Matrix
+ * @size: size of the matrix
  *
- *
- *
- *
+ * Return: Void
  */
 void print_diagsums(int *a, int size)
 {
