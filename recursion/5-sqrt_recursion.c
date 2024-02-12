@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
+ * _sqrt_recursion computes the square root
+ * @n: the number to be square rooted
  *
- *
- *
+ * Return: the root of "N"
  */
 int _sqrt_helper(int n, int guess) 
 {
