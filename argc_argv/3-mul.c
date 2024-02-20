@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
-	int result = n1 * n2;
+	int result = (n1 * n2);
 
 	if (argc <= 3)
 	{
