@@ -1,10 +1,10 @@
 #include "dog.h"
 
 /**
- * free_dog - 
- * @d:
+ * free_dog - Frees allocated mem for struct dog
+ * @d: Pointer to struct do to be freed
  *
- * Return:
+ * Return: nothing
  */
 void free_dog(dog_t *d)
 {
