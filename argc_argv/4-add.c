@@ -12,27 +12,27 @@
   */
 int main(int argc, char *argv[])
 {
-	int d;
-	unsigned int a, sum = 0;
-	char *b;
+	int a;
+	unsigned int b, sum = 0;
+	char *c;
 
 	if (argc > 1)
 	{
-		for (d = 1; d < argc; d++)
+		for (a = 1; a < argc; a++)
 		{
-			b = argv[i];
+			c = argv[a];
 
-			for (a = 0; a < strlen(b); a++)
+			for (b = 0; b < strlen(c); b++)
 			{
-				if (b[a] < 48 || b[b] > 57)
+				if (c[b] < 48 || c[b] > 57)
 				{
 					printf("Error\n");
 					return (1);
 				}
 			}
 
-			sum += atoi(b);
-			b++;
+			sum += atoi(c);
+			c++;
 		}
 
 		printf("%d\n", sum);
