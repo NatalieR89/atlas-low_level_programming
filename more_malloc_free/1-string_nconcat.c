@@ -4,14 +4,14 @@
 /**
   * string_nconcat - concatenates 2 strings
   * @s1: string 1
-  * @s2: string 2
+  * @s2:string 2
   * @n: memory
   *
   * Return: Null
   */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int a = 0, b = 0, c = 0, dd = 0;
+	unsigned int a = 0, b = 0, c = 0, d = 0;
 	char *str;
 
 	if (s1 == NULL)
